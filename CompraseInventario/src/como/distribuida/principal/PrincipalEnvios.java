@@ -35,14 +35,22 @@ public class PrincipalEnvios {
 //		envios.setSucursalDestino(sucursalDestinoDAO.findOne(5));
 		
 		
+		//up para actualizar un dato
+		//Envios envios2 = new Envios(16, new Date());
+		//envios2.setIdPedido(5);
+		//envios2.setIdSucursalOrigen(6);
+		//envios2.setIdSucursalDestino(7);
+		
+		//enviosDAO.up(envios2);
+		
+//	    envios2.setPedido(pedidoDAO.findOne(5));
+//		envios2.setSucursalOrigen(sucursalOrigenDAO.findOne(5));
+//		envios2.setSucursalDestino(sucursalDestinoDAO.findOne(5));
 		
 		
-		//up
-		Envios envios2 =  new Envios(101, new Date());
-		//Envios2.setEnvios(EnviosDAO.findOne(6));
 		
-		//del
-		//EnviosDAO.del(207);
+		//del para eliminar un dato
+		//enviosDAO.del(17);
 		
 		//findOne
 		System.out.println("**********************DEL***********************"+enviosDAO.findOne(5));
