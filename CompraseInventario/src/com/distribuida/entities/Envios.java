@@ -61,14 +61,6 @@ public Envios () {}
 
 
 
-
-
-
-
-	
-
-
-
 	//public Pedido getPedido() {
 	//	return pedido;
 	//}

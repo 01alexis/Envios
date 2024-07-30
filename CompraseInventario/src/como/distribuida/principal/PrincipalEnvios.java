@@ -14,6 +14,8 @@ public class PrincipalEnvios {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("ApplicationContext.xml");
+		
+		
 		EnviosDAO enviosDAO = context.getBean("enviosDAOlmpl",EnviosDAO.class);
 		//PedidoDAO pedidoDAO = context.getBean("pedidoDAOImpl",PedidoDAO.class);
 		//SucursalOrigenDAO pedidoDAO = context.getBean("pedidoDAOImpl",PedidoDAO.class);
